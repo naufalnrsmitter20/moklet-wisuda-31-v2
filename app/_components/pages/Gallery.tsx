@@ -124,10 +124,10 @@ export default function Gallery() {
   return (
     <section className="mb-14 px-2 md:px-10 lg:px-[3.250rem]" id="gallery">
       <div data-aos="fade-right" className="rounded-4xl bg-gradient-to-b from-primary-700 to-primary-800 py-[3.250rem] px-2 md:px-10 lg:px-[7.250rem] text-center text-white relative">
-        <div data-aos="fade-down" data-aos-delay="500">
+        <div data-aos="fade-down">
           <Display1 className="mb-5 text-center">Gallery Of</Display1>
         </div>
-        <a href="#gallery" data-aos="fade-up" data-aos-delay="500" className="bg-secondary-600 w-fit hover:bg-secondary-700 duration-200 rounded-full px-6 py-3 flex items-center gap-4 mx-auto">
+        <a href="#gallery" data-aos="fade-up" className="bg-secondary-600 w-fit hover:bg-secondary-700 duration-200 rounded-full px-6 py-3 flex items-center gap-4 mx-auto">
           <BodyXLarge className="text-white">
             <span>Angkatan 31 - Elevatisa</span>
           </BodyXLarge>
