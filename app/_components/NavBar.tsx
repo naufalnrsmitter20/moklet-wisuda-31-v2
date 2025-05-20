@@ -55,6 +55,11 @@ export default function NavBar() {
           </li>
         </ul>
       </div>
+      <div className="flex lg:hidden items-center justify-start gap-4 mx-auto">
+        <Image className="w-16 md:w-20 lg:w-auto lg:h-auto" width={100} height={100} src="/svg/logo-smkTelkom.svg" alt="Logo SMK Telkom Malang" />
+        <Image className="w-16 md:w-20 lg:w-auto lg:h-auto" width={100} height={100} src="/svg/logo-YPT.svg" alt="Logo SMK Telkom Malang" />
+        <Image className="w-16 md:w-20 lg:w-auto lg:h-auto" width={100} height={100} src="/svg/logo-TS.svg" alt="Logo SMK Telkom Malang" />
+      </div>
       <button
         onClick={HandleModal}
         data-collapse-toggle="navbar-hamburger"
@@ -71,13 +76,8 @@ export default function NavBar() {
         )}
       </button>
       {modal && (
-        <div className="w-full absolute top-0 left-0 lg:hidden" id="navbar-default">
+        <div className="w-full absolute top-20 left-0 lg:hidden" id="navbar-default">
           <ul className="flex text-center flex-col p-4 md:p-0 mt-4 border-b border-b-gray-100 rounded-lg lg:flex-row lg:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 bg-white">
-            <div className="flex items-center justify-start gap-4 mx-auto">
-              <Image className="w-16 md:w-20 lg:w-auto lg:h-auto" width={100} height={100} src="/svg/logo-smkTelkom.svg" alt="Logo SMK Telkom Malang" />
-              <Image className="w-16 md:w-20 lg:w-auto lg:h-auto" width={100} height={100} src="/svg/logo-YPT.svg" alt="Logo SMK Telkom Malang" />
-              <Image className="w-16 md:w-20 lg:w-auto lg:h-auto" width={100} height={100} src="/svg/logo-TS.svg" alt="Logo SMK Telkom Malang" />
-            </div>
             <li className="mt-4 lg:mt-0">
               <BodyLarge>
                 <Link href="#informasi" className="block py-2 px-3 text-gray-600 rounded-sm md:p-0 hover:text-primary-600 duration-200">
