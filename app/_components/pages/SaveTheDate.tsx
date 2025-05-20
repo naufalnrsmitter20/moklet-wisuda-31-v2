@@ -57,8 +57,8 @@ export default function SaveTheDate() {
           <BodyMedium className="text-neutral-800">Detik</BodyMedium>
         </div>
       </main>
-      <Image unoptimized width={100} height={100} src="/svg/Pattern-left.svg" alt="pattern-left" className="absolute -left-48 -top-96 lg:-left-28  lg:-bottom-36 -z-50 w-auto" />
-      <Image unoptimized width={100} height={100} src="/svg/Pattern-right.svg" alt="pattern-right" className="absolute -right-48 --top-96  lg:-right-28  -lg:top-36 -z-50 h-auto" />
+      <Image unoptimized width={100} height={100} src="/svg/Pattern-left.svg" alt="pattern-left" className="absolute -left-48 -top-64 lg:-left-28  lg:-top-0 -z-50 w-auto" />
+      <Image unoptimized width={100} height={100} src="/svg/Pattern-right.svg" alt="pattern-right" className="absolute -right-48 --top-96  lg:-right-28  lg:-bottom-0 -z-50 w-auto" />
     </section>
   );
 }

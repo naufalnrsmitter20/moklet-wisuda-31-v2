@@ -12,55 +12,55 @@ interface CardProops {
 
 const mainCard: CardProops[] = [
   {
-    IMGUrl: "/img/XI RPL 1.png",
+    IMGUrl: "/img/XI RPL 1.webp",
     classes: "XI RPL 1",
   },
   {
-    IMGUrl: "/img/XI RPL 2.png",
+    IMGUrl: "/img/XI RPL 2.webp",
     classes: "XI RPL 2",
   },
   {
-    IMGUrl: "/img/XI RPL 3.png",
+    IMGUrl: "/img/XI RPL 3.webp",
     classes: "XI RPL 3",
   },
   {
-    IMGUrl: "/img/XI RPL 4.png",
+    IMGUrl: "/img/XI RPL 4.webp",
     classes: "XI RPL 4",
   },
   {
-    IMGUrl: "/img/XI RPL 5.png",
+    IMGUrl: "/img/XI RPL 5.webp",
     classes: "XI RPL 5",
   },
   {
-    IMGUrl: "/img/XI RPL 6.png",
+    IMGUrl: "/img/XI RPL 6.webp",
     classes: "XI RPL 6",
   },
   {
-    IMGUrl: "/img/XI RPL 7.png",
+    IMGUrl: "/img/XI RPL 7.webp",
     classes: "XI RPL 7",
   },
   {
-    IMGUrl: "/img/XI RPL 8.png",
+    IMGUrl: "/img/XI RPL 8.webp",
     classes: "XI RPL 8",
   },
   {
-    IMGUrl: "/img/XI TKJ 1.png",
+    IMGUrl: "/img/XI TKJ 1.webp",
     classes: "XI TKJ 1",
   },
   {
-    IMGUrl: "/img/XI TKJ 2.png",
+    IMGUrl: "/img/XI TKJ 2.webp",
     classes: "XI TKJ 2",
   },
   {
-    IMGUrl: "/img/XI TKJ 3.png",
+    IMGUrl: "/img/XI TKJ 3.webp",
     classes: "XI TKJ 3",
   },
   {
-    IMGUrl: "/img/XI TKJ 4.png",
+    IMGUrl: "/img/XI TKJ 4.webp",
     classes: "XI TKJ 4",
   },
   {
-    IMGUrl: "/img/XI TKJ 5.png",
+    IMGUrl: "/img/XI TKJ 5.webp",
     classes: "XI TKJ 5",
   },
 ];

@@ -78,37 +78,37 @@ export default function NavBar() {
       {modal && (
         <div className="w-full absolute top-20 left-0 lg:hidden" id="navbar-default">
           <ul className="flex text-center flex-col p-4 md:p-0 mt-4 border-b border-b-gray-100 rounded-lg lg:flex-row lg:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 bg-white">
-            <li className="mt-4 lg:mt-0">
+            <li className="mt-0">
               <BodyLarge>
-                <Link href="#informasi" className="block py-2 px-3 text-gray-600 rounded-sm md:p-0 hover:text-primary-600 duration-200">
+                <Link href="#informasi" className="block py-2 px-3 text-gray-600 rounded-sm md:p-0 focus:text-primary-600 duration-200">
                   Informasi
                 </Link>
               </BodyLarge>
             </li>
             <li>
               <BodyLarge>
-                <Link href="#RSVP" className="block py-2 px-3 text-gray-600 rounded-sm md:p-0 hover:text-primary-600 duration-200">
+                <Link href="#RSVP" className="block py-2 px-3 text-gray-600 rounded-sm md:p-0 focus:text-primary-600 duration-200">
                   RSVP
                 </Link>
               </BodyLarge>
             </li>
             <li>
               <BodyLarge>
-                <Link href="#gallery" className="block py-2 px-3 text-gray-600 rounded-sm md:p-0 hover:text-primary-600 duration-200">
+                <Link href="#gallery" className="block py-2 px-3 text-gray-600 rounded-sm md:p-0 focus:text-primary-600 duration-200">
                   Gallery
                 </Link>
               </BodyLarge>
             </li>
             <li>
               <BodyLarge>
-                <Link href="#denah" className="block py-2 px-3 text-gray-600 rounded-sm md:p-0 hover:text-primary-600 duration-200">
+                <Link href="#denah" className="block py-2 px-3 text-gray-600 rounded-sm md:p-0 focus:text-primary-600 duration-200">
                   Denah
                 </Link>
               </BodyLarge>
             </li>
             <li>
               <BodyLarge>
-                <Link href="#rundown" className="block py-2 px-3 text-gray-600 rounded-sm md:p-0 hover:text-primary-600 duration-200">
+                <Link href="#rundown" className="block py-2 px-3 text-gray-600 rounded-sm md:p-0 focus:text-primary-600 duration-200">
                   Rundown
                 </Link>
               </BodyLarge>
