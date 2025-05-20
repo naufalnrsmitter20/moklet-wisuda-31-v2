@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Clash Display", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+@theme {
+  --color-primary-50: #fef2f2;
+  --color-primary-100: #ffe2e2;
+  --color-primary-200: #ffc9c9;
+  --color-primary-300: #ffa2a2;
+  --color-primary-400: #ff6467;
+  --color-primary-500: #fb2c36;
+  --color-primary-600: #e7000b;
+  --color-primary-700: #c10007;
+  --color-primary-800: #9f0712;
+  --color-primary-900: #82181a;
+  --color-primary-950: #460809;
+  --color-secondary-50: #eef6ff;
+  --color-secondary-100: #dae9ff;
+  --color-secondary-200: #bddaff;
+  --color-secondary-300: #8fc3ff;
+  --color-secondary-400: #5aa2ff;
+  --color-secondary-500: #347dfd;
+  --color-secondary-600: #1e5df2;
+  --color-secondary-700: #1648df;
+  --color-secondary-800: #193cb8;
+  --color-secondary-900: #1a368e;
+  --color-secondary-950: #152356;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+}
+a:hover {
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-family: "Jakarta Sans", sans-serif;
+}
+
+@font-face {
+  font-family: "Clash Display";
+  src: url("../public/font/ClashDisplay-Bold.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Jakarta Sans";
+  src: url("../public/font/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
