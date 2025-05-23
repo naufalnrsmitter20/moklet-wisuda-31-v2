@@ -45,6 +45,12 @@ export default function Footer() {
             <Link className="hover:text-primary-200" href="https://www.instagram.com/4aisen_/" target="_blank">
               Dionesia
             </Link>
+          </span>{" "}
+          &{" "}
+          <span>
+            <Link className="hover:text-primary-200" href="https://www.instagram.com/brezizi.id/" target="_blank">
+              Brezizi
+            </Link>
           </span>
         </BodyMedium>
       </div>
