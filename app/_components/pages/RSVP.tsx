@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
-import { BodyLarge, Display2, H4 } from "../global/Text";
+import { BodyLarge, BodySmall, Display2, H4 } from "../global/Text";
+import Link from "next/link";
 
 export default function RSVP() {
   return (
@@ -12,8 +13,13 @@ export default function RSVP() {
         </div>
         <div className="px-16 lg:px-0" data-aos="fade-left">
           <div className="p-4 bg-primary-50 border-primary-300 shadow-sm rounded-[1.250rem] mt-10 lg:mt-0">
-            <Image priority unoptimized width={100} height={100} src="/svg/qr-UIUXMoyiSubmit.svg" alt="QR Code" className="mb-4 w-full h-full" />
-            <H4 className="text-primary-700 text-center">Scan Me</H4>
+            <Image priority unoptimized width={100} height={100} src="/svg/qr-KehadiranWisuda31.svg" alt="QR Code" className="w-full h-full" />
+            <BodySmall className="text-gray-600 text-center">
+              <Link href={"https://go.moklet.org/KehadiranWisuda31"} target="_blank">
+                go.moklet.org/KehadiranWisuda31
+              </Link>
+            </BodySmall>
+            <H4 className="text-primary-700 text-center mb-4">Scan Me</H4>
           </div>
         </div>
       </div>

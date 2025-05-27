@@ -5,7 +5,7 @@ export default function Denah() {
   return (
     <section className="mb-[5.750rem] px-2 md:px-10 lg:px-[7.750rem] overflow-hidden" id="denah">
       <div data-aos="fade-up">
-        <Display1 className="text-primary-700 mb-8 text-center">Denah Acara</Display1>
+        <Display1 className="text-primary-700 mb-8 text-center">Lokasi Acara</Display1>
       </div>
       <div className="w-full h-[450px]">
         <iframe

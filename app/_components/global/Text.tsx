@@ -20,7 +20,7 @@ export const H2 = ({ children, className }: TextProps) => {
 };
 
 export const H3 = ({ children, className }: TextProps) => {
-  return <h3 className={`font-bold text-[1.25rem] lg:text-[2rem] leading-normal ${className}`}>{children}</h3>;
+  return <h3 className={`font-bold text-[1.5rem] lg:text-[2rem] leading-normal ${className}`}>{children}</h3>;
 };
 
 export const H4 = ({ children, className }: TextProps) => {

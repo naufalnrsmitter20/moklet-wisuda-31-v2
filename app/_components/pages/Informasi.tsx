@@ -1,6 +1,6 @@
 "use client";
 import { Map } from "lucide-react";
-import { BodyLarge, BodyMedium, Display2, H3, H4, H6 } from "../global/Text";
+import { BodyLarge, BodyMedium, Display2, H3, H4 } from "../global/Text";
 import Image from "next/image";
 
 export default function Informasi() {
@@ -12,14 +12,14 @@ export default function Informasi() {
           Yth. Bapak/Ibu Orangtua/Wali Murid <br /> Kelas XII Angkatan XXXI
         </H3>
         <BodyMedium className="mt-[28px]">Dengan penuh rasa syukur kepada Tuhan Yang Maha Esa,</BodyMedium>
-        <BodyMedium className="mb-[28px]">kami mengundang Bapak/Ibu/Saudara/i untuk hadir dan memberikan doa restu pada acara Pelepasan Siswa Kelas XII SMK Telkom Malang Angkatan XXXI Tahun Pelajaran 2024/2025, bertajux`k:</BodyMedium>
+        <BodyMedium className="mb-[28px]">kami mengundang Bapak/Ibu/Saudara/i untuk hadir dan memberikan doa restu pada acara Pelepasan Siswa Kelas XII SMK Telkom Malang Angkatan XXXI Tahun Pelajaran 2024/2025, bertajuk:</BodyMedium>
         <H4 className="mb-[28px]">
           {'"'}SHINE - Students Honoring Innovations And Noteworthy Excellence{'"'}
         </H4>
         <BodyMedium className="mb-[28px]">yang dilaksanakan pada:</BodyMedium>
         <Display2 className="mb-[28px]">12 . 06 . 2025</Display2>
         <BodyMedium className="mb-[28px]">07:00 - 12:30 WIB</BodyMedium>
-        <H6 className="mb-[28px]">Graha Cakrawala UM</H6>
+        <H3 className="mb-[28px]">Graha Cakrawala UM</H3>
         <BodyMedium className="mb-[28px]">Jalan Cakrawala , Sumbersari, Kecamatan Lowokwaru Kota Malang</BodyMedium>
         <a href="#RSVP" className="bg-secondary-600 w-fit hover:bg-secondary-700 duration-200 rounded-full px-6 py-3 flex items-center gap-4 mx-auto">
           <BodyLarge className="text-white flex items-center gap-[10px]">
