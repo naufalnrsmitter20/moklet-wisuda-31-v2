@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Informasi() {
   return (
     <section data-aos="fade-left" className="px-2 lg:px-[3.250rem]" id="informasi">
-      <div className="rounded-4xl bg-gradient-to-b from-primary-700 to-primary-800 py-[4.5rem] lg:py-[4.5rem] px-4 lg:px-[7.250rem] text-center -z-20 text-white relative">
+      <div className="rounded-4xl bg-gradient-to-b from-primary-700 to-primary-800 py-[4.5rem] lg:py-[4.5rem] px-10 lg:px-[7.250rem] text-center -z-20 text-white relative">
         <Image unoptimized width={100} height={100} src="/svg/mamphis-pattern.svg" alt="memphis" className="w-full h-full object-cover absolute top-0 left-0 -z-10" />
         <H3>
           Yth. Bapak/Ibu Orangtua/Wali Murid <br /> Kelas XII Angkatan XXXI
