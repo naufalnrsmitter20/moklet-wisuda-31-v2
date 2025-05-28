@@ -11,10 +11,10 @@ export default function NavBar() {
   return (
     <nav className="flex justify-between gap-8 fixed items-center bg-white hite px-4 md:px-10 lg:px-[7.750rem] py-7 shadow-md w-full z-50">
       <div className="md:hidden"></div>
-      <div className="hidden md:flex items-end justify-start gap-4">
-        <Image unoptimized className="w-auto h-auto" width={100} height={100} src="/svg/logo-TS.svg" alt="Logo SMK Telkom Malang" />
+      <div className="hidden md:flex items-center justify-start gap-4">
         <Image unoptimized className="w-auto h-auto" width={100} height={100} src="/svg/logo-YPT.svg" alt="Logo SMK Telkom Malang" />
         <Image unoptimized className="w-auto h-auto" width={100} height={100} src="/svg/logo-smkTelkom.svg" alt="Logo SMK Telkom Malang" />
+        <Image unoptimized className="w-auto h-auto" width={100} height={100} src="/svg/logo-TS.svg" alt="Logo SMK Telkom Malang" />
       </div>
       <div className="hidden w-full lg:block md:w-auto" id="navbar-default">
         <ul className="flex flex-col p-4 md:p-0 mt-4 border-b border-b-gray-100 rounded-lg lg:flex-row lg:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 bg-white">
@@ -62,10 +62,10 @@ export default function NavBar() {
           </li>
         </ul>
       </div>
-      <div className="flex lg:hidden items-end justify-start gap-4 mx-auto">
-        <Image className="w-16 md:w-20 lg:w-auto lg:h-auto" width={100} height={100} src="/svg/logo-TS.svg" alt="Logo SMK Telkom Malang" />
+      <div className="flex lg:hidden items-center justify-start gap-4 mx-auto">
         <Image className="w-16 md:w-20 lg:w-auto lg:h-auto" width={100} height={100} src="/svg/logo-YPT.svg" alt="Logo SMK Telkom Malang" />
         <Image className="w-16 md:w-20 lg:w-auto lg:h-auto" width={100} height={100} src="/svg/logo-smkTelkom.svg" alt="Logo SMK Telkom Malang" />
+        <Image className="w-16 md:w-20 lg:w-auto lg:h-auto" width={100} height={100} src="/svg/logo-TS.svg" alt="Logo SMK Telkom Malang" />
       </div>
       <button
         onClick={HandleModal}
