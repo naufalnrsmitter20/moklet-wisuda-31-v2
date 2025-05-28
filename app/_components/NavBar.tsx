@@ -34,6 +34,13 @@ export default function NavBar() {
           </li>
           <li>
             <BodyLarge>
+              <Link href="#do-an-dont" className="block py-2 px-3 text-gray-600 rounded-sm md:p-0 hover:text-primary-600 duration-200">
+                Do and Dont
+              </Link>
+            </BodyLarge>
+          </li>
+          <li>
+            <BodyLarge>
               <Link href="#gallery" className="block py-2 px-3 text-gray-600 rounded-sm md:p-0 hover:text-primary-600 duration-200">
                 Gallery
               </Link>
@@ -89,6 +96,13 @@ export default function NavBar() {
               <BodyLarge>
                 <Link href="#RSVP" className="block py-2 px-3 text-gray-600 rounded-sm md:p-0 focus:text-primary-600 duration-200">
                   RSVP
+                </Link>
+              </BodyLarge>
+            </li>
+            <li>
+              <BodyLarge>
+                <Link href="#do-an-dont" className="block py-2 px-3 text-gray-600 rounded-sm md:p-0 focus:text-primary-600 duration-200">
+                  Do and Dont
                 </Link>
               </BodyLarge>
             </li>
