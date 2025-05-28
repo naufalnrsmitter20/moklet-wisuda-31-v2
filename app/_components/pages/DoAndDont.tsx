@@ -26,8 +26,8 @@ export default function DoAndDont() {
           <ol>
             <li>
               <BodyXLarge className="text-white">1. Dilarang membawa bucket </BodyXLarge>
-              <BodyXLarge className="text-white">2. Undangan berlaku untuk 1 orang </BodyXLarge>
-              <BodyXLarge className="text-white">3. Untuk keluarga bisa naik ke lantai 2</BodyXLarge>
+              <BodyXLarge className="text-white">2. Dilarang mengambil gambar </BodyXLarge>
+              <BodyXLarge className="text-white">3. Dilarang membawa makanan dari luar</BodyXLarge>
             </li>
           </ol>
         </div>
