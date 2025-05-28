@@ -4,20 +4,21 @@ import { BodyXLarge, H2 } from "../global/Text";
 
 const acaraList = [
   "Pembukaan",
-  "Lagu Kebangsaan Indonesia Raya",
-  "Mars SMK Telkom Malang",
-  "Pembacaan Doa",
+  "Qiroah Al-Qur'an",
+  "Menyanyikan Lagu Indonesia Raya, Mars YPT, dan Mars Telkom Schools",
+  "Laporan Hasil Evaluasi Belajar",
   "Sambutan Kepala Sekolah",
-  "Sambutan Perwakilan Orang Tua",
-  "Prosesi Pelepasan Siswa",
-  "Penyerahan Plakat dan Simbolis Kelulusan",
-  "Pelantikan dan Janji Alumni",
-  "Penyerahan Penghargaan Siswa Berprestasi",
-  "Sambutan Perwakilan Siswa Berprestasi",
-  "Tayangan Video Kenangan",
-  "Persembahan Siswa (Tari / Musik / Puisi)",
+  "Sambutan Direktur Utama YPT",
+  "Sambutan Kepala Cabdin Kota Malang dan Batu",
+  "Pengukuhan Kelulusan",
+  "Pembacaan Ikrar Peserta Pelepasan",
+  "Pengumuman Prestasi Akademik",
+  "Pengumuman Prestasi Non-Akademik",
+  "Pidato Ketua Angkatan",
+  "Penyerahan Simbolis Siswa kepada Orang Tua, Diteruskan kepada IAW",
+  "Penayangan Video Profil Angkatan 31",
+  "Pembacaan Doa",
   "Penutupan",
-  "Foto Bersama dan Ramah Tamah",
 ];
 
 export default function Rundown() {
@@ -29,12 +30,12 @@ export default function Rundown() {
           <Image unoptimized width={100} height={100} src="/img/random/20240619145102_IMG_8128.webp" alt="foto 4" className="rounded-3xl h-full w-auto max-h-full shadow object-cover row-start-2" />
           <Image unoptimized width={100} height={100} src="/img/random/20240619142238_IMG_8085.webp" alt="foto 4" className="rounded-3xl h-full w-auto max-h-full shadow object-cover row-start-2" />
         </div>
-        <div data-aos="fade-up" className="bg-gradient-to-b from-primary-700 to-primary-800 w-full text-white rounded-3xl py-18 px-4 md:px-10 lg:px-[7.750rem] text-start shadow-lg">
+        <div data-aos="fade-up" className="bg-gradient-to-b from-primary-700 to-primary-800 w-full text-white rounded-3xl py-18 px-10 lg:px-[4rem] text-start shadow-lg">
           <H2 className="mb-12">Susunan Acara</H2>
           <ol className="text-left space-y-1 list-decimal list-inside">
             {acaraList.map((item, index) => (
               <BodyXLarge key={index}>
-                {index + 1}. {item}
+                <li>{item}</li>
               </BodyXLarge>
             ))}
           </ol>
