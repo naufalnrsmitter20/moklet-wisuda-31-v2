@@ -1,5 +1,5 @@
 import React from "react";
-import { BodyXLarge, H1 } from "../global/Text";
+import { BodyMedium, H1 } from "../global/Text";
 import Image from "next/image";
 
 export default function DoAndDont() {
@@ -11,9 +11,9 @@ export default function DoAndDont() {
           <H1 className="mb-4 text-start">Do</H1>
           <ul>
             <li>
-              <BodyXLarge className="text-white">1. Membawa Undangan fisik</BodyXLarge>
-              <BodyXLarge className="text-white">2. Undangan berlaku untuk 1 orang untuk ruang utama atau lantai 1</BodyXLarge>
-              <BodyXLarge className="text-white">3. Tanpa Undangan masuk ke lantai 2</BodyXLarge>
+              <BodyMedium className="text-white">1. Membawa Undangan fisik</BodyMedium>
+              <BodyMedium className="text-white">2. Undangan berlaku untuk 1 orang untuk ruang utama atau lantai 1</BodyMedium>
+              <BodyMedium className="text-white">3. Tanpa Undangan masuk ke lantai 2</BodyMedium>
             </li>
           </ul>
         </div>
@@ -25,11 +25,11 @@ export default function DoAndDont() {
           <H1 className="mb-4 text-start">Doesn{"'"}t</H1>
           <ol>
             <li>
-              <BodyXLarge className="text-white">1. Dilarang membawa bucket </BodyXLarge>
-              <BodyXLarge className="text-white">2. Dilarang mengambil gambar ke atas panggung</BodyXLarge>
-              <BodyXLarge className="text-white">3. Dilarang membawa makanan dari luar gedung</BodyXLarge>
-              <BodyXLarge className="text-white">4. Dilarang merokok atau menggunakan vape di dalam gedung</BodyXLarge>
-              <BodyXLarge className="text-white">5. Dilarang membawa senjata tajam atau barang berbahaya</BodyXLarge>
+              <BodyMedium className="text-white">1. Dilarang membawa bucket </BodyMedium>
+              <BodyMedium className="text-white">2. Dilarang mengambil gambar ke atas panggung</BodyMedium>
+              <BodyMedium className="text-white">3. Dilarang membawa makanan dari luar gedung</BodyMedium>
+              <BodyMedium className="text-white">4. Dilarang merokok atau menggunakan vape di dalam gedung</BodyMedium>
+              <BodyMedium className="text-white">5. Dilarang membawa senjata tajam atau barang berbahaya</BodyMedium>
             </li>
           </ol>
         </div>
